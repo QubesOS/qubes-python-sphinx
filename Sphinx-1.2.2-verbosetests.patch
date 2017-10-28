@@ -1,0 +1,8 @@
+--- Sphinx-1.2.2/tests/run.py.verbosetests	2014-03-02 14:38:09.000000000 +0700
++++ Sphinx-1.2.2/tests/run.py	2015-02-05 18:40:47.641374670 +0700
+@@ -58,4 +58,4 @@
+     sys.exit(1)
+ 
+ print('Running Sphinx test suite...')
+-nose.main()
++nose.main(argv=['nose', '--verbosity=3'])
