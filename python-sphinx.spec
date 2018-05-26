@@ -1,7 +1,3 @@
-%if 0%{?qubes_builder}
-%define _sourcedir %(pwd)
-%endif
-
 %if 0%{?rhel} >= 7
 %global with_python3 1
 %{!?python3_version: %global python3_version %(%{__python3} -c "import sys; sys.stdout.write(sys.version[:3])")}
