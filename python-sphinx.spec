@@ -9,7 +9,7 @@
 
 Name:       python-sphinx
 Version:    1.2.3
-Release:    4%{?dist}
+Release:    5%{?dist}
 Summary:    Python documentation generator
 
 Group:      Development/Tools
